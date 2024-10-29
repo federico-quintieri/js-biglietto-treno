@@ -13,6 +13,9 @@ let percSconto = 0;
 
 let TotaleSconto = 0;
 
+// Sostituisco la virgola con un punto per poter convertire la string in float
+TotaleKm = TotaleKm.replace(",", ".");
+
 // Controlli
 if (isNaN(TotaleKm)) alert("Inserisci i km correttamente");
 
